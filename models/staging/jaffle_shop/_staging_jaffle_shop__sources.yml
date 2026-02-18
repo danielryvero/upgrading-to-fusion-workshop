@@ -3,8 +3,8 @@ version: 2
 sources:
   - name: jaffle_shop
     description: "Raw data from the jaffle shop application, loaded as seeds"
-    database: RAW
-    schema: UPGRADING_TO_FUSION
+    database: SNOWFLAKE_LEARNING_DB
+    schema: JAFFLE_SHOP
     
     tables:
       - name: raw_customers
