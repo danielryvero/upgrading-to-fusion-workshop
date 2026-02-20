@@ -123,3 +123,6 @@ dbt clone --state ./artifacts/target --full-refresh --target fusion_dev
 You may hit an error on **check constraints** in `financial_reporting_protected` — these silently failed in dbt Core but are now enforced. Remove the failing constraints from the model, and consider using [dbt_assertions](https://github.com/calogica/dbt-assertions) for runtime data quality checks instead.
 
 After that, the run should complete successfully.
+
+## 11. Resources
+- [New Concepts in Fusion (Static Analysis)](https://docs.getdbt.com/docs/fusion/new-concepts)
