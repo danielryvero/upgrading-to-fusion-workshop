@@ -16,3 +16,4 @@ models:
       3. Use post-hook or meta configuration to bypass introspection
     config:
       tags: ['introspection_error', 'training_example']
+      static_analysis: off
