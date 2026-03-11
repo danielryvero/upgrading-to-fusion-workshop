@@ -2,7 +2,9 @@
 
 This repo is a **training project for Coalesce Upgrading to Fusion trainees** to practice upgrading from **dbt Core → dbt Fusion**. It includes a sample dbt Core project plus a mix of **hard and soft blockers** that you’ll need to resolve in order to complete the upgrade.  
 
-The goal: gain hands-on experience troubleshooting and adapting real-world patterns during a Core → Fusion migration.  
+The goal: gain hands-on experience troubleshooting and adapting real-world patterns during a Core → Fusion migration. 
+
+The step-to-step video is for you to follow along is [here](https://www.getdbt.com/confirmation/modernize-your-dbt-project-upgrade-to-fusion-in-practice-workshop-recording?utm_term=all_all__&utm_campaign=q1-2027_modernize-your-dbt-project-upgrade-to-fusion-in-practice-workshop_aw&utm_medium=email&_hsenc=p2ANqtz-9fES5_cC8vkU5dGYlJunyuI4WzFJnGHdTzRBf--8ie0aCaNR_n4T6DIWfbGBaWxQPkAo2eT-I8Q3gLJcN2KxYzjBYo47GqRk9ZF3OtDxasM5x7l-E&_hsmi=406960371&utm_content=____&utm_source=hs-email). Good luck upgrading!
 
 ---
 
