@@ -16,6 +16,12 @@ The goal: gain hands-on experience troubleshooting and adapting real-world patte
 
 2. **Migrate the project**  
    - update the `profiles.yml` and/or the `dbt_project.yml` file to use your Snowflake `ZNA` creds
+   - I had to add the profile connection variables using:
+     ```
+     $env:ACCOUNT="XXXXXXX-XXX11111"
+     $env:USER="danielryvero"
+     $env:PASSWORD="your_password"
+     ```
    - Make sure you run `dbt seed` in dbt Core first to create the underlying data sources
    - Update the repo from dbt Core to dbt Fusion.
      - In VS Code, start by running the migration helper `dbtf init --fusion-upgrade` and follow the workflow
